@@ -4,109 +4,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/exo1001.css">
     <title>CV Dominique CARRASCO</title>
 </head>
 
 <body>
     <header>
-        <div id="photo_CV"><img src="media/exo1001_photo_CV.jpg" alt="Photo-CV" width="150px"></div>
-        <div>
-            <div>
-                <h1>Dominique Carrasco</h1>
-            </div>
-            <div>
-                <nav>
-                    <ul>
-                        <li><a href="#Experience" title="Expériences et Cursus">Expériences et Cursus</a></li>
-                        <li><a href="#Competences" title="Compétences">Compétences</a></li>
-                        <li><a href="#Realisations" title="Réalisation">Réalisations</a></li>
-                    </ul>
-                </nav>
-            </div>
+        <!-- Entête avec photo et liens vers le menu -->
+        <div class="div_photo">
+            <div id="photo_CV"><img src="media/exo1001_photo_CV.jpg" alt="Photo-CV" width="150px"></div>
+            <h1>Dominique Carrasco</h1>
+        </div>
+        <div class="div_nav">
+            <nav>
+                <ul>
+                    <li><a href="#experience" title="Expériences et Cursus">Expériences et Cursus</a></li>
+                    <li><a href="#competences" title="Compétences">Compétences</a></li>
+                    <li><a href="#realisations" title="Réalisation">Réalisations</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
+
     <main>
-        <h1 id="Experience">Expériences</h1>
-        <section>
-            <h2>2024 : Formation Developpeur Web Full Stack</h2>
-            <div><img src="media/exo1001_logo_studi.jpeg" alt="Logo studi" width="50px"></div>
-            <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ipsum metus, auctor vel elit in,
-                    suscipit
-                    tincidunt lectus. Etiam eleifend turpis vitae eros laoreet fringilla. Nulla varius interdum urna ac
-                    hendrerit. Morbi accumsan mattis purus, eget semper ligula fringilla eget. Fusce vel dignissim
-                    magna.
-                </p>
+        <!-- Bloc expérience avec Titre / logo et texte -->
+
+        <section class="section_experience">
+            <h1 id="h1_titre">Expériences</h1>
+            <section class="section_experience_ligne">
+                <h2>2024 : Formation Developpeur Web Full Stack</h2>
+                <div class="div_experience">
+                    <img src="media/exo1001_logo_studi.jpeg" alt="Logo studi" width="50px">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ipsum metus, auctor vel elit in,
+                        suscipit
+                        tincidunt lectus. Etiam eleifend turpis vitae eros laoreet fringilla. Nulla varius interdum urna
+                        ac
+                        hendrerit. Morbi accumsan mattis purus, eget semper ligula fringilla eget. Fusce vel dignissim
+                        magna.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section_experience_ligne">
+                <h2>1995-2023 : Chef de projet</h2>
+                <div class="div_experience">
+                    <div><img src="media/exo1001_logo_logo.jpeg" alt="Logo logo" width="50px"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ipsum metus, auctor vel elit in,
+                        suscipit
+                        tincidunt lectus. Etiam eleifend turpis vitae eros laoreet fringilla. Nulla varius interdum urna
+                        ac
+                        hendrerit. Morbi accumsan mattis purus, eget semper ligula fringilla eget. Fusce vel dignissim
+                        magna.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section_experience_ligne">
+                <h2>1992-1995 : Developpeur</h2>
+                <div class="div_experience">
+                    <div><img src="media/exo1001_logo_logo.jpeg" alt="Logo logo" width="50px"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ipsum metus, auctor vel elit in,
+                        suscipit
+                        tincidunt lectus. Etiam eleifend turpis vitae eros laoreet fringilla. Nulla varius interdum urna
+                        ac
+                        hendrerit. Morbi accumsan mattis purus, eget semper ligula fringilla eget. Fusce vel dignissim
+                        magna.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section_experience_ligne">
+                <h2>1990-1992 : Developpeur</h2>
+                <div class="div_experience">
+                    <div><img src="media/exo1001_logo_logo.jpeg" alt="Logo logo" width="50px"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ipsum metus, auctor vel elit in,
+                        suscipit
+                        tincidunt lectus. Etiam eleifend turpis vitae eros laoreet fringilla. Nulla varius interdum urna
+                        ac
+                        hendrerit. Morbi accumsan mattis purus, eget semper ligula fringilla eget. Fusce vel dignissim
+                        magna.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section_experience_ligne">
+                <h2>1988 : DEA Génie des Procédés Physico-Chimiques options informatique</h2>
+                <div class="div_experience">
+                    <div><img src="media/exo1001_logo_ENSIACET.jpeg" alt="Logo ENCIASET" width="50px"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ipsum metus, auctor vel elit in,
+                        suscipit
+                        tincidunt lectus. Etiam eleifend turpis vitae eros laoreet fringilla. Nulla varius interdum urna
+                        ac
+                        hendrerit. Morbi accumsan mattis purus, eget semper ligula fringilla eget. Fusce vel dignissim
+                        magna.
+                    </p>
+                </div>
+            </section>
+        </section>
+
+
+        <!-- Bloc compétences des mots clés -->
+
+
+        <section class="section_competences">
+            <h1 id="competences">Compétences & Tools</h1>
+            <div class="div_competences">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Javascript</p>
+                <p>php</p>
+                <p>elit dolor</p>
+                <p>Lorem amet</p>
+                <p>Lorem </p>
+                <p>ipsum dolor </p>
+                <p>sit amet</p>
+                <p>consectetur</p>
+                <p>elit dolor</p>
+                <p>Lorem amet</p>
+                <p>Lorem </p>
+                <p>ipsum dolor </p>
+                <p>sit amet</p>
+                <p>consectetur</p>
+                <p>elit dolor</p>
+                <p>Lorem amet</p>
             </div>
         </section>
-        <section>
-            <h2>1995-2023 : Chef de projet</h2>
-            <div><img src="media/exo1001_logo_logo.jpeg" alt="Logo logo" width="50px"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ipsum metus, auctor vel elit in, suscipit
-                tincidunt lectus. Etiam eleifend turpis vitae eros laoreet fringilla. Nulla varius interdum urna ac
-                hendrerit. Morbi accumsan mattis purus, eget semper ligula fringilla eget. Fusce vel dignissim magna.
-            </p>
-        </section>
-        <section>
-            <h2>1992-1995 : Developpeur</h2>
-            <div><img src="media/exo1001_logo_logo.jpeg" alt="Logo logo" width="50px"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ipsum metus, auctor vel elit in, suscipit
-                tincidunt lectus. Etiam eleifend turpis vitae eros laoreet fringilla. Nulla varius interdum urna ac
-                hendrerit. Morbi accumsan mattis purus, eget semper ligula fringilla eget. Fusce vel dignissim magna.
-            </p>
-        </section>
-        <section>
-            <h2>1990-1992 : Developpeur</h2>
-            <div><img src="media/exo1001_logo_logo.jpeg" alt="Logo logo" width="50px"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ipsum metus, auctor vel elit in, suscipit
-                tincidunt lectus. Etiam eleifend turpis vitae eros laoreet fringilla. Nulla varius interdum urna ac
-                hendrerit. Morbi accumsan mattis purus, eget semper ligula fringilla eget. Fusce vel dignissim magna.
-            </p>
-        </section>
-        <section>
-            <h2>1988 : DEA Génie des Procédés Physico-Chimiques options informatique</h2>
-            <div><img src="media/exo1001_logo_ENSIACET.jpeg" alt="Logo ENCIASET" width="50px"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ipsum metus, auctor vel elit in, suscipit
-                tincidunt lectus. Etiam eleifend turpis vitae eros laoreet fringilla. Nulla varius interdum urna ac
-                hendrerit. Morbi accumsan mattis purus, eget semper ligula fringilla eget. Fusce vel dignissim magna.
-            </p>
-        </section>
 
-        <h1 id="Competences">Compétences</h1>
-        <section>
-            <div>Lorem </div>
-            <div>ipsum dolor </div>
-            <div>sit amet</div>
-            <div>consectetur</div>
-            <div>elit dolor</div>
-            <div>Lorem amet</div>
-        </section>
+        <!-- Bloc réalisations avec liens vers des exemples de réalisations -->
 
-
-        <h1 id="Realisations">Réalisations</h1>
-        <section>
+        <section class="section_realisations">
+            <h1 id="realisations">Réalisations</h1>
             <ul>
                 <li><a href="" title="Lorem ipsum">Lorem ipsum dolor sit amet</a></li>
                 <li><a href="" title="Etiam eleifend">Etiam eleifend turpis vitae</a></li>
-                <li><a href="" title="Lorem ipsum">Lorem ipsum</a></li>
-                <li><a href="" title="Lorem ipsum">Lorem ipsum</a></li>
-                <li><a href="" title="Lorem ipsum">Lorem ipsum</a></li>
-                <li><a href="" title="Lorem ipsum">Lorem ipsum</a></li>
-                <li><a href="" title="Lorem ipsum">Lorem ipsum</a></li>
-                <li><a href="" title="Lorem ipsum">Lorem ipsum</a></li>
+                <li><a href="" title="accumsam matis">accumsam matis</a></li>
+                <li><a href="" title="eget semper ligula">eget semper ligula</a></li>
+                <li><a href="" title="ligula fringilla">ligula fringilla</a></li>
+                <li><a href="" title="ligula fringilla">ligula fringilla</a></li>
+                <li><a href="" title="vitae eros laoreetm">vitae eros laoreet</a></li>
+                <li><a href="" title="tincidunt lectus">tincidunt lectus</a></li>
             </ul>
         </section>
-
-
     </main>
+
     <footer>
         <div>
             <p>Droits auteur © 2023 Mon site</p>
         </div>
         <div>
             <a href="https://www.cnil.fr/fr/rgpd-exemples-de-mentions-dinformation"
-                title="Mentions légales et RGPD">Mentions
-                légales et RGPD</a>
+                title="Mentions légales et RGPD">Mentions légales et RGPD</a>
         </div>
     </footer>
 
