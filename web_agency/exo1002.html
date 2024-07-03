@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/exo1002.css">
+    <link rel="stylesheet" href="./css/exo1002_responsive.css">
     <title>Web Agency</title>
 </head>
 
@@ -13,7 +14,7 @@
         <!-- Section entete avec logo et menu -->
         <section class="header_entete">
             <div id="logo"><img src="./Assets/images/wa_logo.png" alt="logo_webagency" width="150px"></div>
-            <div class="div_nav">
+            <div class="header_nav">
                 <nav>
                     <ul>
                         <li><a href="#accueil" title="accueil">Accueil</a></li>
@@ -26,13 +27,19 @@
         </section>
 
         <!-- Section entete avec carroussel -->
-        <section class="header_image"></section>
-
-        <section class="carroussel">
-            <figure>
-                <img src="./Assets/images/wa_carroussel_01.jpg" alt="image carroussel">
-                <img src="./Assets/images/wa_carroussel_02.jpg" alt="image carroussel">
-            </figure>
+        <div class="header_carroussel">
+            <div class="img_carroussel"><img src="./Assets/images/wa_carroussel_01.jpg" alt="image carroussel"></div>
+            <div class="chevron_left_carroussel"><img src="./Assets/images/chevron-left-solid.svg"
+                    alt="image carroussel"></div>
+            <div class="chevron_right_carroussel"><img src="./Assets/images/chevron-right-solid.svg"
+                    alt="image carroussel"></div>
+            <article class="carroussel_texte">
+                <p class="text_grand_bleu">webagency</p>
+                <p class="text_grand_blanc">: l'agence de tous vos projets!</p>
+                <p class="text_petit_blanc">Vous avez un projet web? La Webagency vous aide à la réaliser.</p>
+                <p class="text_case_bleue">Plus d'infos</p>
+            </article>
+        </div>
         </section>
     </header>
 
@@ -40,8 +47,7 @@
         <section id="services" class="bloc_section">
             <div class="section_entete">
                 <p class="section_title">nos services</p>
-                <div class="img_separateur"><img src="./Assets/images/wa_separateur.png" alt="image separateur"
-                        width="150px">
+                <div class="img_separateur"><img src="./Assets/images/wa_separateur.png" alt="image separateur">
                 </div>
                 <p class="section_texte">De taille humaine, notre agence vous accompagne du début à la fin de votre
                     projet.
@@ -50,25 +56,23 @@
                     support, du web au mobile.</p>
             </div>
             <div class="services_corps">
-                <div id="services_img_ecran"><img src="./Assets/images/wa_ecran_ordi.png" alt="logo_webagency"
-                        width="150px"></div>
-                <div class="div_nav">
+                <div id="services_img_ecran"><img src="./Assets/images/wa_ecran_ordi.png" alt="image nos services">
+                </div>
+                <div class="services_nav">
                     <nav>
                         <ul>
                             <li class="li_service">
-                                <div><img src="./Assets/images/wa_ico_UX.png" alt="icone UX" width="50px"></div>
+                                <div><img src="./Assets/images/wa_ico_UX.png" alt="icone UX"></div>
                                 <div class="service_item">
-                                    <p class="titre_texte">UX design</p>
+                                    <p class="titre_texte"><b>UX design</b></p>
                                     <p class="section_texte">Une équipe,passionée qui place l'utilisateur final au
-                                        centre de sa démarche pour
-                                        une
-                                        technologie plus humaine</p>
+                                        centre de sa démarche pour une technologie plus humaine </p>
                                 </div>
                             </li>
                             <li class="li_service">
-                                <div><img src="./Assets/images/wa_ico_UI.png" alt="icone UI" width="50px"></div>
+                                <div><img src="./Assets/images/wa_ico_UI.png" alt="icone UI"></div>
                                 <div class="service_item">
-                                    <p class="titre_texte">UI design</p>
+                                    <p class="titre_texte"><b>UI design</b></p>
                                     <p class="section_texte">Une interface optimisée qui permet à votre site de rester à
                                         la page au gré
                                         des
@@ -76,9 +80,9 @@
                                 </div>
                             </li>
                             <li class="li_service">
-                                <div><img src="./Assets/images/wa_ico_SEO.png" alt="icone SEO" width="50px"></div>
+                                <div><img src="./Assets/images/wa_ico_SEO.png" alt="icone SEO"></div>
                                 <div class="service_item">
-                                    <p class="titre_texte">SEO</p>
+                                    <p class="titre_texte"><b>SEO</b></p>
                                     <p class="section_texte">Nos experts en référencement vous permettent d'améliorer le
                                         postionnement de
                                         votre
@@ -95,8 +99,7 @@
         <section id="portfolio" class="bloc_section">
             <div class="section_entete">
                 <p class="section_title">portfolio</p>
-                <div class="img_separateur"><img src="./Assets/images/wa_separateur.png" alt="image separateur"
-                        width="150px">
+                <div class="img_separateur"><img src="./Assets/images/wa_separateur.png" alt="image separateur">
                 </div>
                 <p class="section_texte">Beaucoup d'entreprises nous ont fait confiance pour leur projets ! Découvrez
                     une sélection de nos réalistions tendances, modernes et innovantes</p>
@@ -110,14 +113,14 @@
                 </nav>
             </div>
             <div class="portfolio_tab_images">
-                <div><img src="./Assets/images/wa_portfolio_01.jpg" alt="portfolio image" width="150px"></div>
-                <div><img src="./Assets/images/wa_portfolio_02.jpg" alt="portfolio image" width="150px"></div>
-                <div><img src="./Assets/images/wa_portfolio_03.jpg" alt="portfolio image" width="150px"></div>
-                <div><img src="./Assets/images/wa_portfolio_04.jpg" alt="portfolio image" width="150px"></div>
-                <div><img src="./Assets/images/wa_portfolio_05.jpg" alt="portfolio image" width="150px"></div>
-                <div><img src="./Assets/images/wa_portfolio_06.jpg" alt="portfolio image" width="150px"></div>
-                <div><img src="./Assets/images/wa_portfolio_07.jpg" alt="portfolio image" width="150px"></div>
-                <div><img src="./Assets/images/wa_portfolio_08.jpg" alt="portfolio image" width="150px"></div>
+                <div><img src="./Assets/images/wa_portfolio_01.jpg" alt="portfolio image"></div>
+                <div><img src="./Assets/images/wa_portfolio_02.jpg" alt="portfolio image"></div>
+                <div><img src="./Assets/images/wa_portfolio_03.jpg" alt="portfolio image"></div>
+                <div><img src="./Assets/images/wa_portfolio_04.jpg" alt="portfolio image"></div>
+                <div><img src="./Assets/images/wa_portfolio_05.jpg" alt="portfolio image"></div>
+                <div><img src="./Assets/images/wa_portfolio_06.jpg" alt="portfolio image"></div>
+                <div><img src="./Assets/images/wa_portfolio_07.jpg" alt="portfolio image"></div>
+                <div><img src="./Assets/images/wa_portfolio_08.jpg" alt="portfolio image"></div>
             </div>
         </section>
 

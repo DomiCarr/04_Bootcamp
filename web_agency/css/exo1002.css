@@ -16,7 +16,6 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    padding: 10px;
 }
 
 /* header entete : logo + menu */
@@ -28,7 +27,7 @@ header {
     padding: 10px;
 }
 
-.div_nav ul {
+.header_nav ul {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -42,13 +41,52 @@ header a {
 
 /* survol liens entête */
 header a:hover {
-    color: cadetblue;
+    color: rgb(12, 6, 125);
+    background-color: rgb(185, 224, 225);
 }
 
-.header_image {
-    width: 100%;
-    height: 380px;
-    background: no-repeat center center / cover url("../Assets/images/wa_carroussel_01.jpg");
+.header_carroussel {
+    position: relative;
+}
+
+.img_carroussel img {
+    width: 100vw;
+    height: auto;
+    position: relative;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.chevron_left_carroussel img {
+    background-color: rgb(240, 248, 255, 0.75);
+    position: absolute;
+    z-index: 3;
+    width: 2vw;
+    height: auto;
+    left: 0;
+    top: 45%;
+    bottom: 0;
+}
+
+.chevron_right_carroussel img {
+    background-color: rgb(240, 248, 255, 0.75);
+    position: absolute;
+    z-index: 3;
+    width: 2vw;
+    height: auto;
+    left: 98%;
+    top: 45%;
+    bottom: 0;
+}
+
+.carroussel_texte {
+    position: absolute;
+    z-index: 3;
+    left: 5%;
+    top: 30%;
 }
 
 main,
@@ -66,6 +104,9 @@ main,
     padding: 10px;
 }
 
+.li_service img {
+    width: 50px;
+}
 
 .section_title {
     text-transform: uppercase;
@@ -99,6 +140,15 @@ main,
 
 }
 
+.portfolio_tab_images img {
+    width: 42vw;
+}
+
+.services_img_ecran img {
+    width: 100vw;
+    height: auto;
+}
+
 .plan_acces_frame {
     width: 100vw;
     height: 50vh;
@@ -125,4 +175,35 @@ button {
     padding: 10px;
     color: aliceblue;
     background-color: #7DA9CB;
+}
+
+.article_carroussel {
+    width: 20vw;
+}
+
+.text_grand_bleu {
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #7DA9CB;
+}
+
+.text_grand_blanc {
+    text-transform: uppercase;
+    font-size: 1em;
+    color: white;
+}
+
+.text_petit_blanc {
+    font-size: 0.6em;
+    color: white;
+}
+
+.text_case_bleue {
+    margin-top: 0.5em;
+    padding: 3px;
+    font-size: 0.6em;
+    color: white;
+    width: 75px;
+    background-color: #7DA9CB;
+    border-radius: 3px;
 }
