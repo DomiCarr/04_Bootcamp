@@ -108,6 +108,8 @@ main,
     width: 50px;
 }
 
+
+
 .section_title {
     text-transform: uppercase;
     font-size: 1.5em;
@@ -177,9 +179,6 @@ button {
     background-color: #7DA9CB;
 }
 
-.article_carroussel {
-    width: 20vw;
-}
 
 .text_grand_bleu {
     text-transform: uppercase;
@@ -194,16 +193,18 @@ button {
 }
 
 .text_petit_blanc {
-    font-size: 0.6em;
+
+    font-size: 0.8em;
     color: white;
 }
 
 .text_case_bleue {
     margin-top: 0.5em;
     padding: 3px;
-    font-size: 0.6em;
+    font-size: 0.7em;
     color: white;
     width: 75px;
     background-color: #7DA9CB;
     border-radius: 3px;
+    text-align: center;
 }

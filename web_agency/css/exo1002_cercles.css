@@ -1,0 +1,51 @@
+.container {
+    font-size: 10px;
+    width: 40em;
+    height: 40em;
+    position: relative;
+}
+
+.service_icon {
+    position: relative;
+}
+
+.service_icon_icon {
+    font-size: 25px;
+    color: #5BACD3;
+    position: relative;
+    z-index: 1;
+}
+
+.service_icon_cercle {
+    position: absolute;
+    border-style: solid;
+    border-color: transparent grey grey grey;
+    border-width: 0.1em;
+    border-radius: 50%;
+    top: -0.5em;
+    left: -0.5em;
+    bottom: 0;
+    right: 0;
+    width: 3em;
+    height: 3em;
+    animation: orbit 5s linear infinite;
+}
+
+
+.service_icon_cercle::before {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    top: 0.15em;
+    left: 0.15em;
+    width: 0.4em;
+    height: 0.4em;
+    background-color: #5BACD3;
+}
+
+
+@keyframes orbit {
+    to {
+        transform: rotate(360deg);
+    }
+}
