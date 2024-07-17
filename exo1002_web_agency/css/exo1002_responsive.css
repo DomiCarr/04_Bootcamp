@@ -22,7 +22,7 @@
         display: flex;
         justify-content: space-between;
         flex-direction: row;
-        align-items: start;
+        align-items: center;
         padding: 10px;
     }
 
@@ -30,7 +30,7 @@
         display: flex;
         flex-direction: column;
         align-items: self-start;
-        padding: 10px;
+        margin-left: 10px;
     }
 
     .ligne_texte {
@@ -47,7 +47,7 @@
         padding: 10px;
     }
 
-    .portfolio_tab_images img {
+    .portfolio_galerie_images img {
         width: 22vw;
     }
 
@@ -79,4 +79,15 @@
         text-align: center;
     }
 
+    .bloc_image_portfolio figure img {
+        width: 380px;
+    }
+
+    .bloc_image_portfolio figure figcaption {
+        width: 380px;
+    }
+
+    footer {
+        flex-direction: row;
+    }
 }
