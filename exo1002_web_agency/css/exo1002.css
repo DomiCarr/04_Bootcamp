@@ -56,7 +56,8 @@ les autres images et textes dessus */
 
 /* on defini la taille et la position de l'image de la petite fille
 aussi en relative */
-.img_carroussel img {
+.img_carroussel img,
+.carousel-inner img {
     width: 100%;
     height: auto;
     position: relative;
@@ -105,8 +106,8 @@ top 45% pour qu'elle soit à peu près au centre
 .carroussel_texte {
     position: absolute;
     z-index: 3;
-    left: 5%;
-    top: 30%;
+    left: 10%;
+    top: 20%;
 }
 
 /* le début de la phrase est en majuscules bleu */
